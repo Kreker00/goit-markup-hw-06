@@ -33,6 +33,7 @@ button {
 /* допоміжний клас, для центрування і обмеження контенту по ширині */
 /* ======================== */
 .center {
+  width: 1440px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -107,7 +108,6 @@ body {
 /* -------- header -------- */
 /* ======================== */
 .hat {
-  min-width: 1440px;
   border-bottom: 1px solid var(--cornflower-accent);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -217,7 +217,6 @@ body {
 
 /* ----- section 1 ----- */
 .hero {
-  max-width: 1440px;
   background-color: var(--navy-blue-dark);
   padding: 188px 0;
   align-items: center;
@@ -330,7 +329,6 @@ body {
 
 /* ----- section 4 ----- */
 .team {
-  max-width: 1440px;
   background-color: var(--cloud-light);
 }
 
@@ -429,10 +427,7 @@ body {
 /* ======================== */
 /* -------- footer -------- */
 /* ======================== */
-.jh {
-}
 .footer {
-  max-width: 1440px;
   background-color: var(--navy-blue-dark);
 }
 
@@ -444,7 +439,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-
+/* 1 div */
 .footer-logo-box {
   margin-right: 120px;
 }
@@ -465,9 +460,12 @@ body {
   width: 264px;
   color: var(--cloud-light);
 }
-/*  */
+/* 2 div */
+.footer-media-box {
+  margin-right: 80px;
+}
+
 .media-text {
-  font-weight: 500;
   color: var(--white-background);
   margin-bottom: 16px;
 }
@@ -499,6 +497,56 @@ body {
 .media-element:focus {
   background-color: var(--green-success-100);
 }
+
+/* 3 div */
+.footer-sub-box {
+}
+.sub-text {
+  color: var(--white-background);
+  margin-bottom: 16px;
+}
+.sub-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.sub-form-wrapper {
+}
+.email-sub-input {
+  color: var(--white-background);
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  border: 1px solid var(--white-background);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+.email-sub-input::placeholder {
+  color: var(--white-background);
+}
+
+.knock-sub {
+  color: var(--white-background);
+  width: 165px;
+  height: 40px;
+  letter-spacing: 0.04em;
+  background-color: var(--iris-primary-brand);
+  border: none;
+  border-radius: 4px;
+  padding: 0 24px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.knock-sub:hover,
+.knock-sub:focus {
+  background-color: var(--ocean-pressed-state);
+}
+.icons-knock-telegram {
+  fill: var(--white-background);
+}
+
 /* ======================== */
 /* ------- portfolio ------ */
 /* ======================== */
