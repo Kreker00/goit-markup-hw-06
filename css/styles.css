@@ -383,9 +383,6 @@ body {
   fill: var(--cloud-light);
 }
 /* ----- section 5 ----- */
-.customers {
-}
-
 .demonstration-customers {
   line-height: 1.1;
 }
@@ -480,6 +477,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--iris-primary-brand);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -517,10 +515,11 @@ body {
   width: 264px;
   height: 40px;
   padding-left: 16px;
+  background-color: transparent;
+
   border: 1px solid var(--white-background);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: transparent;
 }
 .email-sub-input::placeholder {
   color: var(--white-background);
@@ -532,10 +531,12 @@ body {
   height: 40px;
   letter-spacing: 0.04em;
   background-color: var(--iris-primary-brand);
+
   border: none;
   border-radius: 4px;
   padding: 0 24px;
   gap: 16px;
+
   display: flex;
   align-items: center;
 }
@@ -717,6 +718,7 @@ body {
   width: 408px;
   min-height: 576px;
   background-color: var(--dairy-modal-background);
+  padding: 72px 24px 24px 24px;
 
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -754,4 +756,66 @@ body {
 
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ----------- */
+.modal-form {
+}
+
+.form-had {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 16px;
+}
+
+.form-list {
+  padding-bottom: 16px;
+}
+
+.form-list-element {
+  padding-bottom: 8px;
+}
+
+.lab-inp {
+  width: 100%;
+  padding-left: 38px;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+.lab-name,
+.lab-tel,
+.lab-email,
+.lab-text {
+  position: relative;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slait-subtle-text);
+}
+
+.lab-inp-name,
+.lab-inp-tel,
+.lab-inp-email {
+  height: 40px;
+}
+
+.svg-person,
+.svg-phone,
+.svg-email {
+  position: absolute;
+}
+
+.lab-inp-text {
+  height: 120px;
+  padding: 0 16px;
+}
+
+.lab-inp-privacy {
+}
+
+.span {
+}
+
+.link-privacy {
 }

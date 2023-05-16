@@ -314,7 +314,7 @@
         </div>
       </section>
       <!-- section 5 -->
-      <section class="customers section center">
+      <section class="section center">
         <div class="container">
           <h2 class="demonstration demonstration-customers">Customers</h2>
           <ul class="customers-list alignment-gap list">
@@ -413,9 +413,9 @@
         <!--  -->
         <div class="footer-sub-box">
           <p class="sub-text">Subscribe</p>
-          <form class="sub-form" name="sub-form">
+          <form class="sub-form" name="Subscribe-form">
             <label class="sub-form-wrapper">
-              <input class="email-sub-input" type="email" name="email" id="" placeholder="E-mail" />
+              <input class="email-sub-input" type="email" name="email" placeholder="E-mail" />
             </label>
             <button class="knock-sub" type="submit">
               Subscribe
@@ -431,11 +431,64 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-dtn" data-modal-close>
+        <button class="modal-close-dtn" type="button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons_folder/icons.svg#x_modal"></use>
           </svg>
         </button>
+        <!--  -->
+        <form class="modal-form">
+          <strong class="form-had">Leave your contacts and we will call you back</strong>
+          <ul class="form-list list">
+            <li class="form-list-element">
+              <label class="lab-name" autofocus>
+                Name
+                <input class="lab-inp-name lab-inp" type="name" name="name" />
+                <svg class="svg-person" width="18" height="24">
+                  <use href="./images/icons_folder/icons.svg#person-black-18dp"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="form-list-element">
+              <label class="lab-tel">
+                Phone
+                <input class="lab-inp-tel lab-inp" type="tel" name="tel" />
+                <svg class="svg-phone" width="18" height="24">
+                  <use href="./images/icons_folder/icons.svg#phone-black-18dp"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="form-list-element">
+              <label class="lab-email">
+                Email
+                <input class="lab-inp-email lab-inp" type="email" name="email" />
+                <svg class="svg-email" width="18" height="24">
+                  <use href="./images/icons_folder/icons.svg#email-black-18dp"></use>
+                </svg>
+              </label>
+            </li>
+            <li class="">
+              <label class="lab-text">
+                Comment
+                <input
+                  class="lab-inp-text lab-inp"
+                  type="text"
+                  name="Comment"
+                  placeholder="Text input"
+                />
+              </label>
+            </li>
+          </ul>
+          <!--  -->
+          <label>
+            <inpu class="lab-inp-privacy" type="checkbox" />
+            <span class="span">
+              I accept the terms and conditions of the
+              <a class="link-privacy" href="">Privacy Policy</a>
+            </span>
+            <button class="" type="submit">Send</button>
+          </label>
+        </form>
       </div>
     </div>
 
