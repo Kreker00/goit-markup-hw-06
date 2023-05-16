@@ -503,7 +503,7 @@ body {
   color: var(--white-background);
   margin-bottom: 16px;
 }
-.sub-form {
+.footer-sub-form {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -525,7 +525,7 @@ body {
   color: var(--white-background);
 }
 
-.knock-sub {
+.footer-knock-sub {
   color: var(--white-background);
   width: 165px;
   height: 40px;
@@ -540,8 +540,8 @@ body {
   display: flex;
   align-items: center;
 }
-.knock-sub:hover,
-.knock-sub:focus {
+.footer-knock-sub:hover,
+.footer-knock-sub:focus {
   background-color: var(--ocean-pressed-state);
 }
 .icons-knock-telegram {
@@ -786,7 +786,8 @@ body {
 .lab-name,
 .lab-tel,
 .lab-email,
-.lab-text {
+.lab-text,
+.lab-inp-privacy {
   position: relative;
   font-size: 12px;
   line-height: 1.17;
@@ -811,11 +812,28 @@ body {
   padding: 0 16px;
 }
 
-.lab-inp-privacy {
-}
-
 .span {
 }
 
 .link-privacy {
+  color: var(--iris-primary-brand);
+}
+
+.modal-knock-sub {
+  width: 169px;
+  height: 56px;
+  background: var(--iris-primary-brand);
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white-background);
+
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
