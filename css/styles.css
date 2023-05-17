@@ -784,6 +784,12 @@ body {
   border-radius: 4px;
 }
 
+.lab-inp:hover,
+.lab-inp:focus {
+  background-color: var(--iris-primary-brand);
+  fill: var(--iris-primary-brand);
+}
+
 .lab-name,
 .lab-tel,
 .lab-email {
