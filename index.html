@@ -442,7 +442,7 @@
           <ul class="form-list list">
             <li class="form-list-element">
               <label class="lab-name" autofocus>
-                Name
+                <span class="sp-name">Name</span>
                 <input class="lab-inp-name lab-inp" type="name" name="name" />
                 <svg class="svg-person" width="18" height="24">
                   <use href="./images/icons_folder/icons.svg#person-black-18dp"></use>
@@ -451,7 +451,7 @@
             </li>
             <li class="form-list-element">
               <label class="lab-tel">
-                Phone
+                <span class="sp-name">Phone</span>
                 <input class="lab-inp-tel lab-inp" type="tel" name="tel" />
                 <svg class="svg-phone" width="18" height="24">
                   <use href="./images/icons_folder/icons.svg#phone-black-18dp"></use>
@@ -460,7 +460,7 @@
             </li>
             <li class="form-list-element">
               <label class="lab-email">
-                Email
+                <span class="sp-name">Email</span>
                 <input class="lab-inp-email lab-inp" type="email" name="email" />
                 <svg class="svg-email" width="18" height="24">
                   <use href="./images/icons_folder/icons.svg#email-black-18dp"></use>
@@ -469,7 +469,7 @@
             </li>
             <li class="">
               <label class="lab-text">
-                Comment
+                <span class="sp-name">Comment</span>
                 <input
                   class="lab-inp-text lab-inp"
                   type="text"
@@ -481,13 +481,15 @@
           </ul>
           <!--  -->
           <label>
-            <inpu class="lab-inp-privacy" type="checkbox" />
-            <span class="span">
-              I accept the terms and conditions of the
-              <a class="link-privacy" href="">Privacy Policy</a>
-            </span>
-            <button class="modal-knock-sub" type="submit">Send</button>
+            <div class="lab-inp-privacy-box">
+              <input class="lab-inp-privacy" type="checkbox" />
+              <span class="span-privacy">
+                I accept the terms and conditions of the
+                <a class="link-privacy" href="">Privacy Policy</a>
+              </span>
+            </div>
           </label>
+          <button class="modal-knock-sub" type="submit">Send</button>
         </form>
       </div>
     </div>
