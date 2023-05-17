@@ -793,9 +793,9 @@ body {
 .lab-inp-email:hover,
 .lab-inp-name:focus + .svg-person,
 .lab-inp-name:focus,
-.lab-inp-tel:focus + .svg-phone:focus,
+.lab-inp-tel:focus + .svg-phone,
 .lab-inp-tel:focus,
-.lab-inp-email:focus + .svg-email:focus,
+.lab-inp-email:focus + .svg-email,
 .lab-inp-email:focus {
   border-color: var(--iris-primary-brand);
   fill: var(--iris-primary-brand);
