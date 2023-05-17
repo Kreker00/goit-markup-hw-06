@@ -784,13 +784,9 @@ body {
   border-radius: 4px;
 }
 
-.sp-name {
-}
-
 .lab-name,
 .lab-tel,
-.lab-email,
-.lab-text {
+.lab-email {
   position: relative;
   font-size: 12px;
   line-height: 1.17;
@@ -812,9 +808,25 @@ body {
   left: 16px;
 }
 
-.lab-inp-text {
+.sp-name {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slait-subtle-text);
+}
+
+.lab-text {
+  width: 100%;
   height: 120px;
-  padding: 0 16px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slait-subtle-text);
+  resize: none;
+  background-color: transparent;
+  padding: 8px 16px 0;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
 }
 
 /* -- */
