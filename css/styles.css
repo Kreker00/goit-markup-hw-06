@@ -785,10 +785,8 @@ body {
   fill: var(--navy-blue-dark);
 }
 
-.lab-inp-name:hover,
-.svg-person:hover,
-.lab-inp-tel:hover,
-.svg-phone:hover,
+.lab-inp-name-box:hover > .lab-inp-name .svg-person,
+.lab-inp-tel-box:hover > .lab-inp-tel .svg-phone,
 .lab-inp-email:hover,
 .svg-email:hover,
 .lab-inp-name:focus,
