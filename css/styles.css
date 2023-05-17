@@ -786,8 +786,9 @@ body {
 
 .lab-inp:hover,
 .lab-inp:focus {
-  background-color: var(--iris-primary-brand);
+  border-color: var(--iris-primary-brand);
   fill: var(--iris-primary-brand);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lab-name,
@@ -812,6 +813,16 @@ body {
   position: absolute;
   top: 26px;
   left: 14px;
+}
+
+.svg-person:hover,
+.svg-phone:hover,
+.svg-email:hover,
+.svg-person:focus,
+.svg-phone:focus,
+.svg-email:focus {
+  fill: var(--iris-primary-brand);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sp-name {
