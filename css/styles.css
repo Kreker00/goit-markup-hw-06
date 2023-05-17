@@ -782,20 +782,21 @@ body {
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  fill: var(--navy-blue-dark);
 }
 
 .lab-inp-name:hover,
-.svg-person,
+.svg-person:hover,
 .lab-inp-tel:hover,
-.svg-phone,
+.svg-phone:hover,
 .lab-inp-email:hover,
-.svg-email,
+.svg-email:hover,
 .lab-inp-name:focus,
-.svg-person,
+.svg-person:focus,
 .lab-inp-tel:focus,
-.svg-phone,
+.svg-phone:focus,
 .lab-inp-email:focus,
-.svg-email {
+.svg-email:focus {
   border-color: var(--iris-primary-brand);
   fill: var(--iris-primary-brand);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
