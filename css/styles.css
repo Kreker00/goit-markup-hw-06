@@ -784,12 +784,12 @@ body {
   border-radius: 4px;
 }
 
-.lab-inp-name:hover > .svg-person:hover,
-.lab-inp-tel:hover > .svg-phone:hover,
-.lab-inp-email:hover .svg-email:hover,
-.lab-inp-name:focus .svg-person:focus,
-.lab-inp-tel:focus .svg-phone:focus,
-.lab-inp-email:focus .svg-email:focus {
+.lab-inp-name:hover .svg-person,
+.lab-inp-tel:hover .svg-phone,
+.lab-inp-email:hover .svg-email,
+.lab-inp-name:focus .svg-person,
+.lab-inp-tel:focus .svg-phone,
+.lab-inp-email:focus .svg-email {
   border-color: var(--iris-primary-brand);
   fill: var(--iris-primary-brand);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
