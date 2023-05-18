@@ -803,8 +803,9 @@ body {
 }
 
 label:focus-within > .svg-lab,
+.lab-inp:hover > .svg-lab:hover,
 .lab-inp:hover,
-.lab-inp:focus + .svg-lab,
+.lab-inp:focus > .svg-lab:focus,
 .lab-inp:focus {
   border-color: var(--iris-primary-brand);
   fill: var(--iris-primary-brand);
