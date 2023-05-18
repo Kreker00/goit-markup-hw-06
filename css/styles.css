@@ -769,16 +769,6 @@ body {
 }
 /*  */
 /*  */
-
-.lab-inp:hover + .svg-lab,
-.lab-inp:hover,
-.lab-inp:focus + .svg-lab,
-.lab-inp:focus {
-  border-color: var(--iris-primary-brand);
-  fill: var(--iris-primary-brand);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .lab {
   position: relative;
   display: block;
@@ -810,6 +800,15 @@ body {
   top: 26px;
   left: 14px;
   fill: var(--navy-blue-dark);
+}
+
+.lab-inp:hover + .svg-lab,
+.lab-inp:hover,
+.lab-inp:focus + .svg-lab,
+.lab-inp:focus {
+  border-color: var(--iris-primary-brand);
+  fill: var(--iris-primary-brand);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lad-comment {
