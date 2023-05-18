@@ -802,7 +802,7 @@ body {
   fill: var(--navy-blue-dark);
 }
 
-.lab-inp:hover + .svg-lab,
+label:focus-within > .svg-lab,
 .lab-inp:hover,
 .lab-inp:focus + .svg-lab,
 .lab-inp:focus {
