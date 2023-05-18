@@ -758,7 +758,7 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ----------- */
+/* ----- form ------ */
 .modal-form {
 }
 
@@ -767,23 +767,8 @@ body {
   justify-content: center;
   padding: 0 0 10px;
 }
-
-.form-list {
-  padding-bottom: 16px;
-}
-
-.form-list-element {
-  padding-bottom: 4px;
-}
-
-.lab-inp {
-  width: 100%;
-  padding-left: 36px;
-
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  fill: var(--navy-blue-dark);
-}
+/*  */
+/*  */
 
 .lab-inp-name:hover + .svg-person,
 .lab-inp-name:hover,
@@ -801,15 +786,33 @@ body {
   fill: var(--iris-primary-brand);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/*
+ ul
 
-.lab-name,
-.lab-tel,
-.lab-email {
+.form-list {
+  line-height: 0;
+  padding-bottom: 16px;
+}
+
+li 
+
+.form-list-element {
+  padding-bottom: 8px;
+} 
+*/
+
+.lab {
   position: relative;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slait-subtle-text);
+}
+
+/* --- #3 *! --- */
+.form-lab-had {
+  display: block;
+  margin-bottom: 4px;
 }
 
 .lab-inp-name,
@@ -818,9 +821,16 @@ body {
   height: 40px;
 }
 
-.svg-person,
-.svg-phone,
-.svg-email {
+.lab-inp {
+  width: 100%;
+  padding-left: 36px;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  fill: var(--navy-blue-dark);
+}
+
+.svg {
   position: absolute;
   top: 26px;
   left: 14px;
@@ -857,10 +867,12 @@ body {
   margin-bottom: 24px;
 }
 
+/* -- #3 *! -- */
 .lab-inp-privacy {
   width: 16px;
   height: 16px;
   background-color: var(--ocean-pressed-state);
+  cursor: pointer;
 }
 
 .span-privacy {
