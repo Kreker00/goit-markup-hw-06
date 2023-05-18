@@ -802,10 +802,10 @@ body {
   fill: var(--navy-blue-dark);
 }
 
-label:focus-within > .svg-lab,
-.lab-inp:hover > .svg-lab:hover,
+label:focus-within > .svg-lab + .lab-inp,
+.lab-inp:hover > .svg-lab,
 .lab-inp:hover,
-.lab-inp:focus > .svg-lab:focus,
+.lab-inp:focus > .svg-lab,
 .lab-inp:focus {
   border-color: var(--iris-primary-brand);
   fill: var(--iris-primary-brand);
