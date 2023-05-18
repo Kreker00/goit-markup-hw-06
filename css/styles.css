@@ -803,6 +803,7 @@ body {
 }
 
 label:focus-within > .svg-lab,
+label:focus-visible > .svg-lab,
 label:focus-within > .lab-inp,
 label:hover > .svg-lab,
 label:hover > .lab-inp,
