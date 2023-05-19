@@ -799,7 +799,6 @@ body {
   position: absolute;
   top: 26px;
   left: 14px;
-  fill: var(--navy-blue-dark);
 }
 
 label:focus-within > .svg-lab,

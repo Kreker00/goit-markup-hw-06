@@ -105,9 +105,10 @@ button {
   padding: 0;
 }
 
-/* :-moz-focusring {
-    outline: 1px dotted ButtonText;
-} */
+:-moz-focusring {
+  outline: none;
+}
+/* outline: 1px dotted ButtonText; */
 
 :-moz-ui-invalid {
   box-shadow: none;
@@ -128,8 +129,8 @@ progress {
 
 [type='search'] {
   -webkit-appearance: textfield;
+  outline-offset: -2px;
 }
-/* outline-offset: -2px; */
 
 ::-webkit-search-decoration {
   -webkit-appearance: none;
